@@ -1,0 +1,7 @@
+.trending {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  height: 900px;
+  width: 145%;
+}

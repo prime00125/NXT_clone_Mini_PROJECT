@@ -1,0 +1,58 @@
+* {
+  margin: 0px;
+}
+
+.AllVideoList {
+  display: grid;
+  grid-auto-rows: 3fr;
+  grid-template-columns: repeat(3, 1fr);
+}
+ul {
+  list-style-type: none;
+}
+.Home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  width: 85%;
+  height: 900px;
+}
+.searchsection {
+  display: flex;
+  width: 400px;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.min {
+  display: flex;
+}
+
+.x {
+  position: relative;
+  left: 96%;
+  font-weight: bolder;
+  font-size: xx-large;
+  cursor: pointer;
+}
+.remover {
+  display: flex;
+  width: 100%;
+  height: 200px;
+  flex-direction: column;
+}
+.rembtn {
+  width: 200px;
+  height: 40px;
+}
+.homelogo {
+  width: 180px;
+  height: 70px;
+}
+.home-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow-y: scroll; /* Add this line to enable vertical scrolling */
+}

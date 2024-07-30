@@ -1,0 +1,11 @@
+.gaming {
+  display: grid;
+  grid-auto-rows: 3fr;
+  grid-template-columns: repeat(3, 1fr);
+  overflow-y: scroll;
+  height: 900px;
+  column-gap: 100px;
+}
+ul {
+  list-style-type: none;
+}

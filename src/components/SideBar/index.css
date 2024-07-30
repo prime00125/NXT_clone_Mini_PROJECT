@@ -1,0 +1,24 @@
+.siderBar {
+  display: flex;
+  width: 20%;
+  height: 900px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.navigate {
+  text-decoration: none;
+  display: flex;
+  height: 300px;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.lowerIcons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.icon {
+  height: 30px;
+  width: 30px;
+}

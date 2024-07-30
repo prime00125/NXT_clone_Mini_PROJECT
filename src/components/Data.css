@@ -1,0 +1,92 @@
+.main {
+  display: flex;
+  flex-direction: column;
+}
+.category {
+  border: 1px solid black;
+  display: flex;
+  height: 60vh;
+  overflow-y: auto;
+  scrollbar-width: none; /* Hide the scrollbar */
+  -ms-overflow-style: none; /* Hide the scrollbar for IE/Edge */
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  height: 10vh;
+  align-items: center;
+}
+
+.left .right{
+  position: relative;
+}
+.chekout {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  position: relative;
+  left: 80%;
+}
+tr:nth-child(even) {
+  background-color: #D6EEEE;
+
+}
+tr:hover {background-color: #9fff05;}
+input {border:none;height:20px;}
+
+.si{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.item{
+  width: 400px;
+}
+.code{
+  width: 160px;
+}
+.purity{
+  width: 100px;
+}
+.weight{
+  width: 100px;
+}
+.qty{
+  width:85px;
+
+
+}
+.price{
+  width: 200px;
+}
+.amount{
+  width: 200px;
+}
+
+
+
+
+
+table {
+  border-collapse: collapse;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+thead{
+  display: flex;
+}
+th{
+  border-left: 1px solid black;
+  
+  border-right: 1px solid black;
+}
+ td {
+  border: 1px solid black;
+}
+
+button{
+  display: flex;
+  width: 200px;
+  height: 10vh;
+}
